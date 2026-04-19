@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<strings>
+  <!-- App -->
+  <string key="app.name">FocusWall</string>
+  <string key="app.quit">退出</string>
+
+  <!-- General -->
+  <string key="general.ok">好</string>
+  <string key="general.cancel">取消</string>
+
+  <!-- Menu -->
+  <string key="menu.settings">设置</string>
+  <string key="menu.about">关于</string>
+
+  <!-- Modes -->
+  <string key="mode.single">单次</string>
+  <string key="mode.pomodoro">Pomodoro</string>
+
+  <!-- Phases -->
+  <string key="phase.idle">就绪</string>
+  <string key="phase.focus">专注</string>
+  <string key="phase.shortBreak">短休息</string>
+  <string key="phase.longBreak">长休息</string>
+
+  <!-- Timer -->
+  <string key="timer.start">开始</string>
+  <string key="timer.stop">停止</string>
+  <string key="duration.single.summary">%1 分钟</string>
+
+  <!-- Popover -->
+  <string key="popover.blocked">已屏蔽 %1</string>
+  <string key="history.today">今日 %1</string>
+  <string key="history.label">会话</string>
+  <string key="history.total">共 %1 次会话</string>
+  <string key="history.minutes">专注 %1 分钟</string>
+  <string key="history.totalShort">%1 · %2 分钟</string>
+  <string key="blocklist.label">应用</string>
+  <string key="blocklist.none">无</string>
+  <string key="websites.label">网站</string>
+  <string key="websites.count">%1</string>
+
+  <!-- Blocklist -->
+  <string key="blocklist.empty">尚未屏蔽任何应用</string>
+  <string key="blocklist.empty.detail">添加你希望在专注会话期间屏蔽的应用。</string>
+  <string key="blocklist.count">已屏蔽 %1 个应用</string>
+  <string key="blocklist.manage">管理</string>
+  <string key="blocklist.add">添加</string>
+  <string key="blocklist.remove">移除</string>
+
+  <!-- App picker -->
+  <string key="apppicker.title">选择要屏蔽的应用</string>
+  <string key="apppicker.selected">已选 %1 项</string>
+  <string key="apppicker.search">搜索应用</string>
+  <string key="apppicker.add">添加</string>
+  <string key="apppicker.cancel">取消</string>
+
+  <!-- Settings -->
+  <string key="settings.title">设置</string>
+  <string key="settings.general">通用</string>
+  <string key="settings.launchAtLogin">登录时启动</string>
+  <string key="settings.notifications">显示通知</string>
+  <string key="settings.durations">时长</string>
+  <string key="settings.singleDuration">单次会话</string>
+  <string key="settings.pomodoroFocus">Pomodoro 专注</string>
+  <string key="settings.pomodoroShort">短休息</string>
+  <string key="settings.pomodoroLong">长休息</string>
+  <string key="settings.pomodoroCycles">长休息前的循环数</string>
+  <string key="settings.minutes">%1 分钟</string>
+  <string key="settings.blocklist">屏蔽列表</string>
+  <string key="settings.websites">网站</string>
+
+  <!-- Helper -->
+  <string key="helper.installed">助手已安装</string>
+  <string key="helper.uninstall">卸载</string>
+  <string key="helper.install">安装助手</string>
+  <string key="helper.reinstall">重新安装</string>
+  <string key="helper.reinstall.tooltip">重新部署内置助手。在更新 FocusWall 后使用此选项以应用新的助手版本。</string>
+  <string key="helper.required.title">屏蔽网站需要助手</string>
+  <string key="helper.required.body">FocusWall 需要一个具有权限的助手来编辑 /etc/hosts。现在进行一次管理员授权,之后不再询问——助手将在后台运行,直到你卸载它。</string>
+
+  <!-- Websites -->
+  <string key="websites.enabled">专注会话期间屏蔽网站</string>
+  <string key="websites.presets">预设</string>
+  <string key="websites.addPlaceholder">example.com</string>
+  <string key="websites.add">添加</string>
+  <string key="websites.empty">尚未添加任何网站</string>
+  <string key="websites.current">已屏蔽 %1 个网站</string>
+  <string key="websites.dohNote">会话期间,DNS-over-HTTPS 解析器(Cloudflare、Google、Quad9、NextDNS 等)也会被屏蔽,因此浏览器的"安全 DNS"会静默地回退到系统解析器。</string>
+
+  <!-- Presets -->
+  <string key="preset.socialMedia">社交媒体</string>
+  <string key="preset.news">新闻</string>
+  <string key="preset.entertainment">娱乐</string>
+
+  <!-- Blocked popup -->
+  <string key="blocked.title">已屏蔽</string>
+  <string key="blocked.unlockAt">%1 解锁</string>
+
+  <!-- How it works -->
+  <string key="about.howItWorks">工作原理</string>
+  <string key="howitworks.title">FocusWall 的工作原理</string>
+  <string key="howitworks.kicker">幕后原理</string>
+  <string key="howitworks.subtitle">简要介绍。</string>
+  <string key="howitworks.apps.title">应用</string>
+  <string key="howitworks.apps.body">选择会让你分心的应用。会话进行中时,如果你尝试打开它们会自动关闭。</string>
+  <string key="howitworks.websites.title">网站</string>
+  <string key="howitworks.websites.body">选择域名或使用预设。会话期间你的浏览器将无法访问它们。</string>
+  <string key="howitworks.pomodoro.title">Pomodoro</string>
+  <string key="howitworks.pomodoro.body">运行单个专注区块,或在专注与休息之间交替。专注时启用屏蔽,休息时禁用。</string>
+  <string key="howitworks.privacy.title">隐私</string>
+  <string key="howitworks.privacy.body">一切都在你的 Mac 上发生。没有账户,没有追踪,没有数据离开设备。</string>
+
+  <!-- Notifications -->
+  <string key="notification.focusDone.title">专注会话完成</string>
+  <string key="notification.focusDone.body">该休息一下了。</string>
+  <string key="notification.breakDone.title">休息结束</string>
+  <string key="notification.breakDone.body">回到专注。</string>
+  <string key="notification.blocked.title">应用已屏蔽</string>
+  <string key="notification.blocked.body">FocusWall 已屏蔽 %1。</string>
+
+  <!-- About -->
+  <string key="about.title">关于 FocusWall</string>
+  <string key="about.tagline">免费原生 macOS 专注屏蔽器</string>
+  <string key="about.version">版本</string>
+  <string key="about.version.label">已安装版本</string>
+  <string key="about.github">GitHub 项目</string>
+  <string key="about.githubProject">在 GitHub 上查看</string>
+  <string key="about.support">支持项目</string>
+  <string key="about.sponsor">在 GitHub 上赞助</string>
+  <string key="about.sponsor.subtitle">通过 GitHub Sponsors 定期支持</string>
+  <string key="about.coffee">Buy Me a Coffee</string>
+  <string key="about.coffee.subtitle">通过 buymeacoffee.com 一次性打赏</string>
+  <string key="about.language">语言</string>
+  <string key="about.language.system">系统默认</string>
+  <string key="about.restartRequired">需要重新启动</string>
+  <string key="about.restartNow">立即重新启动</string>
+  <string key="about.restartReason">语言更改将在 FocusWall 重新启动后生效。</string>
+
+  <!-- Updates -->
+  <string key="update.title">更新</string>
+  <string key="update.check">立即检查</string>
+  <string key="update.checking">正在检查更新…</string>
+  <string key="update.upToDate">已是最新版本</string>
+  <string key="update.recheck">重新检查</string>
+  <string key="update.available">有可用更新</string>
+  <string key="update.version">版本 %1 可用</string>
+  <string key="update.download">下载</string>
+  <string key="update.downloading">正在下载更新…</string>
+  <string key="update.ready">更新已下载</string>
+  <string key="update.install">立即安装</string>
+  <string key="update.error">检查失败</string>
+  <string key="update.retry">重试</string>
+</strings>

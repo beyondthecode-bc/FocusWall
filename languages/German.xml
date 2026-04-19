@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<strings>
+  <!-- App -->
+  <string key="app.name">FocusWall</string>
+  <string key="app.quit">Beenden</string>
+
+  <!-- General -->
+  <string key="general.ok">OK</string>
+  <string key="general.cancel">Abbrechen</string>
+
+  <!-- Menu -->
+  <string key="menu.settings">Einstellungen</string>
+  <string key="menu.about">Über</string>
+
+  <!-- Modes -->
+  <string key="mode.single">Einzel</string>
+  <string key="mode.pomodoro">Pomodoro</string>
+
+  <!-- Phases -->
+  <string key="phase.idle">Bereit</string>
+  <string key="phase.focus">Fokus</string>
+  <string key="phase.shortBreak">Kurze Pause</string>
+  <string key="phase.longBreak">Lange Pause</string>
+
+  <!-- Timer -->
+  <string key="timer.start">Starten</string>
+  <string key="timer.stop">Stoppen</string>
+  <string key="duration.single.summary">%1 Min.</string>
+
+  <!-- Popover -->
+  <string key="popover.blocked">%1 blockiert</string>
+  <string key="history.today">%1 heute</string>
+  <string key="history.label">Sitzungen</string>
+  <string key="history.total">Gesamt: %1 Sitzungen</string>
+  <string key="history.minutes">%1 Min. fokussiert</string>
+  <string key="history.totalShort">%1 · %2 Min.</string>
+  <string key="blocklist.label">Apps</string>
+  <string key="blocklist.none">Keine</string>
+  <string key="websites.label">Websites</string>
+  <string key="websites.count">%1</string>
+
+  <!-- Blocklist -->
+  <string key="blocklist.empty">Noch keine Apps blockiert</string>
+  <string key="blocklist.empty.detail">Fügen Sie Apps hinzu, die während Fokussitzungen blockiert werden sollen.</string>
+  <string key="blocklist.count">%1 Apps blockiert</string>
+  <string key="blocklist.manage">Verwalten</string>
+  <string key="blocklist.add">Hinzufügen</string>
+  <string key="blocklist.remove">Entfernen</string>
+
+  <!-- App picker -->
+  <string key="apppicker.title">Apps zum Blockieren auswählen</string>
+  <string key="apppicker.selected">%1 ausgewählt</string>
+  <string key="apppicker.search">Apps suchen</string>
+  <string key="apppicker.add">Hinzufügen</string>
+  <string key="apppicker.cancel">Abbrechen</string>
+
+  <!-- Settings -->
+  <string key="settings.title">Einstellungen</string>
+  <string key="settings.general">Allgemein</string>
+  <string key="settings.launchAtLogin">Beim Anmelden starten</string>
+  <string key="settings.notifications">Mitteilungen anzeigen</string>
+  <string key="settings.durations">Dauer</string>
+  <string key="settings.singleDuration">Einzelsitzung</string>
+  <string key="settings.pomodoroFocus">Pomodoro-Fokus</string>
+  <string key="settings.pomodoroShort">Kurze Pause</string>
+  <string key="settings.pomodoroLong">Lange Pause</string>
+  <string key="settings.pomodoroCycles">Zyklen vor langer Pause</string>
+  <string key="settings.minutes">%1 Min.</string>
+  <string key="settings.blocklist">Sperrliste</string>
+  <string key="settings.websites">Websites</string>
+
+  <!-- Helper -->
+  <string key="helper.installed">Helfer installiert</string>
+  <string key="helper.uninstall">Deinstallieren</string>
+  <string key="helper.install">Helfer installieren</string>
+  <string key="helper.reinstall">Neu installieren</string>
+  <string key="helper.reinstall.tooltip">Installiert den gebündelten Helfer erneut. Verwenden Sie dies nach einem FocusWall-Update, um die neue Helferversion zu übernehmen.</string>
+  <string key="helper.required.title">Helfer für Website-Blockierung erforderlich</string>
+  <string key="helper.required.body">FocusWall benötigt einen privilegierten Helfer, um /etc/hosts zu bearbeiten. Eine einmalige Administratorabfrage jetzt, keine weiteren später — der Helfer läuft im Hintergrund, bis Sie ihn deinstallieren.</string>
+
+  <!-- Websites -->
+  <string key="websites.enabled">Websites während Fokussitzungen blockieren</string>
+  <string key="websites.presets">Vorgaben</string>
+  <string key="websites.addPlaceholder">beispiel.com</string>
+  <string key="websites.add">Hinzufügen</string>
+  <string key="websites.empty">Noch keine Websites hinzugefügt</string>
+  <string key="websites.current">%1 Websites blockiert</string>
+  <string key="websites.dohNote">DNS-over-HTTPS-Resolver (Cloudflare, Google, Quad9, NextDNS u. a.) werden während einer Sitzung ebenfalls blockiert, sodass „Sicheres DNS" im Browser unauffällig auf den System-Resolver zurückfällt.</string>
+
+  <!-- Presets -->
+  <string key="preset.socialMedia">Soziale Medien</string>
+  <string key="preset.news">Nachrichten</string>
+  <string key="preset.entertainment">Unterhaltung</string>
+
+  <!-- Blocked popup -->
+  <string key="blocked.title">Blockiert</string>
+  <string key="blocked.unlockAt">Freigabe um %1</string>
+
+  <!-- How it works -->
+  <string key="about.howItWorks">Funktionsweise</string>
+  <string key="howitworks.title">So funktioniert FocusWall</string>
+  <string key="howitworks.kicker">Unter der Haube</string>
+  <string key="howitworks.subtitle">Ein schneller Überblick.</string>
+  <string key="howitworks.apps.title">Apps</string>
+  <string key="howitworks.apps.body">Wählen Sie die Apps aus, die Sie ablenken. Während einer Sitzung werden sie automatisch geschlossen, wenn Sie versuchen, sie zu öffnen.</string>
+  <string key="howitworks.websites.title">Websites</string>
+  <string key="howitworks.websites.body">Wählen Sie Domains aus oder nutzen Sie eine Vorgabe. Während der Sitzung können Ihre Browser sie einfach nicht erreichen.</string>
+  <string key="howitworks.pomodoro.title">Pomodoro</string>
+  <string key="howitworks.pomodoro.body">Lassen Sie einen einzelnen Fokusblock laufen oder wechseln Sie zwischen Fokus und Pausen. Die Blockierung ist während des Fokus aktiv und in den Pausen inaktiv.</string>
+  <string key="howitworks.privacy.title">Datenschutz</string>
+  <string key="howitworks.privacy.body">Alles geschieht auf Ihrem Mac. Keine Konten, keine Verfolgung, keine Daten verlassen das Gerät.</string>
+
+  <!-- Notifications -->
+  <string key="notification.focusDone.title">Fokussitzung abgeschlossen</string>
+  <string key="notification.focusDone.body">Zeit für eine Pause.</string>
+  <string key="notification.breakDone.title">Pause ist vorbei</string>
+  <string key="notification.breakDone.body">Zurück zum Fokus.</string>
+  <string key="notification.blocked.title">App blockiert</string>
+  <string key="notification.blocked.body">FocusWall hat %1 blockiert.</string>
+
+  <!-- About -->
+  <string key="about.title">Über FocusWall</string>
+  <string key="about.tagline">Kostenloser, nativer macOS-Ablenkungsblocker</string>
+  <string key="about.version">Version</string>
+  <string key="about.version.label">Installierte Version</string>
+  <string key="about.github">GitHub-Projekt</string>
+  <string key="about.githubProject">Auf GitHub ansehen</string>
+  <string key="about.support">Projekt unterstützen</string>
+  <string key="about.sponsor">Auf GitHub sponsern</string>
+  <string key="about.sponsor.subtitle">Wiederkehrende Unterstützung via GitHub Sponsors</string>
+  <string key="about.coffee">Buy Me a Coffee</string>
+  <string key="about.coffee.subtitle">Einmaliges Trinkgeld via buymeacoffee.com</string>
+  <string key="about.language">Sprache</string>
+  <string key="about.language.system">Systemstandard</string>
+  <string key="about.restartRequired">Neustart erforderlich</string>
+  <string key="about.restartNow">Jetzt neu starten</string>
+  <string key="about.restartReason">Die Sprachänderung wird nach einem Neustart von FocusWall wirksam.</string>
+
+  <!-- Updates -->
+  <string key="update.title">Aktualisierungen</string>
+  <string key="update.check">Jetzt prüfen</string>
+  <string key="update.checking">Suche nach Aktualisierungen…</string>
+  <string key="update.upToDate">Sie sind auf dem neuesten Stand</string>
+  <string key="update.recheck">Erneut prüfen</string>
+  <string key="update.available">Aktualisierung verfügbar</string>
+  <string key="update.version">Version %1 verfügbar</string>
+  <string key="update.download">Laden</string>
+  <string key="update.downloading">Aktualisierung wird geladen…</string>
+  <string key="update.ready">Aktualisierung geladen</string>
+  <string key="update.install">Installieren</string>
+  <string key="update.error">Suche fehlgeschlagen</string>
+  <string key="update.retry">Wiederholen</string>
+</strings>

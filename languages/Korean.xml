@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<strings>
+  <!-- App -->
+  <string key="app.name">FocusWall</string>
+  <string key="app.quit">종료</string>
+
+  <!-- General -->
+  <string key="general.ok">확인</string>
+  <string key="general.cancel">취소</string>
+
+  <!-- Menu -->
+  <string key="menu.settings">설정</string>
+  <string key="menu.about">정보</string>
+
+  <!-- Modes -->
+  <string key="mode.single">단일</string>
+  <string key="mode.pomodoro">뽀모도로</string>
+
+  <!-- Phases -->
+  <string key="phase.idle">준비</string>
+  <string key="phase.focus">집중</string>
+  <string key="phase.shortBreak">짧은 휴식</string>
+  <string key="phase.longBreak">긴 휴식</string>
+
+  <!-- Timer -->
+  <string key="timer.start">시작</string>
+  <string key="timer.stop">중지</string>
+  <string key="duration.single.summary">%1분</string>
+
+  <!-- Popover -->
+  <string key="popover.blocked">%1 차단됨</string>
+  <string key="history.today">오늘 %1</string>
+  <string key="history.label">세션</string>
+  <string key="history.total">합계: %1 세션</string>
+  <string key="history.minutes">%1분 집중</string>
+  <string key="history.totalShort">%1 · %2분</string>
+  <string key="blocklist.label">앱</string>
+  <string key="blocklist.none">없음</string>
+  <string key="websites.label">사이트</string>
+  <string key="websites.count">%1</string>
+
+  <!-- Blocklist -->
+  <string key="blocklist.empty">아직 차단된 앱이 없습니다</string>
+  <string key="blocklist.empty.detail">집중 세션 동안 차단할 앱을 추가하세요.</string>
+  <string key="blocklist.count">앱 %1개 차단됨</string>
+  <string key="blocklist.manage">관리</string>
+  <string key="blocklist.add">추가</string>
+  <string key="blocklist.remove">제거</string>
+
+  <!-- App picker -->
+  <string key="apppicker.title">차단할 앱 선택</string>
+  <string key="apppicker.selected">%1개 선택됨</string>
+  <string key="apppicker.search">앱 검색</string>
+  <string key="apppicker.add">추가</string>
+  <string key="apppicker.cancel">취소</string>
+
+  <!-- Settings -->
+  <string key="settings.title">설정</string>
+  <string key="settings.general">일반</string>
+  <string key="settings.launchAtLogin">로그인 시 실행</string>
+  <string key="settings.notifications">알림 표시</string>
+  <string key="settings.durations">지속 시간</string>
+  <string key="settings.singleDuration">단일 세션</string>
+  <string key="settings.pomodoroFocus">뽀모도로 집중</string>
+  <string key="settings.pomodoroShort">짧은 휴식</string>
+  <string key="settings.pomodoroLong">긴 휴식</string>
+  <string key="settings.pomodoroCycles">긴 휴식 전 사이클 수</string>
+  <string key="settings.minutes">%1분</string>
+  <string key="settings.blocklist">차단 목록</string>
+  <string key="settings.websites">웹사이트</string>
+
+  <!-- Helper -->
+  <string key="helper.installed">도우미 설치됨</string>
+  <string key="helper.uninstall">제거</string>
+  <string key="helper.install">도우미 설치</string>
+  <string key="helper.reinstall">다시 설치</string>
+  <string key="helper.reinstall.tooltip">내장 도우미를 다시 설치합니다. FocusWall 업데이트 후 새 도우미 버전을 적용할 때 사용하세요.</string>
+  <string key="helper.required.title">웹사이트 차단에 도우미가 필요합니다</string>
+  <string key="helper.required.body">FocusWall이 /etc/hosts를 편집하려면 권한 있는 도우미가 필요합니다. 지금 한 번만 관리자 인증을 받으면 이후에는 묻지 않습니다 — 제거할 때까지 백그라운드에서 실행됩니다.</string>
+
+  <!-- Websites -->
+  <string key="websites.enabled">집중 세션 동안 웹사이트 차단</string>
+  <string key="websites.presets">프리셋</string>
+  <string key="websites.addPlaceholder">example.com</string>
+  <string key="websites.add">추가</string>
+  <string key="websites.empty">아직 추가된 웹사이트가 없습니다</string>
+  <string key="websites.current">웹사이트 %1개 차단됨</string>
+  <string key="websites.dohNote">DNS-over-HTTPS 리졸버(Cloudflare, Google, Quad9, NextDNS 등)도 세션 중에는 차단되므로 브라우저의 "보안 DNS"는 자연스럽게 시스템 리졸버로 폴백됩니다.</string>
+
+  <!-- Presets -->
+  <string key="preset.socialMedia">소셜 미디어</string>
+  <string key="preset.news">뉴스</string>
+  <string key="preset.entertainment">엔터테인먼트</string>
+
+  <!-- Blocked popup -->
+  <string key="blocked.title">차단됨</string>
+  <string key="blocked.unlockAt">%1에 해제</string>
+
+  <!-- How it works -->
+  <string key="about.howItWorks">작동 방식</string>
+  <string key="howitworks.title">FocusWall 작동 방식</string>
+  <string key="howitworks.kicker">이면의 원리</string>
+  <string key="howitworks.subtitle">간단한 소개.</string>
+  <string key="howitworks.apps.title">앱</string>
+  <string key="howitworks.apps.body">주의를 빼앗는 앱을 선택하세요. 세션이 진행 중일 때 이를 열려고 하면 자동으로 닫힙니다.</string>
+  <string key="howitworks.websites.title">웹사이트</string>
+  <string key="howitworks.websites.body">도메인을 선택하거나 프리셋을 사용하세요. 세션 동안 브라우저에서 해당 사이트에 접속할 수 없습니다.</string>
+  <string key="howitworks.pomodoro.title">뽀모도로</string>
+  <string key="howitworks.pomodoro.body">단일 집중 블록을 실행하거나 집중과 휴식을 번갈아 진행합니다. 차단은 집중 중에 활성화되고 휴식 중에는 비활성화됩니다.</string>
+  <string key="howitworks.privacy.title">개인정보</string>
+  <string key="howitworks.privacy.body">모든 것이 당신의 Mac에서 이루어집니다. 계정도, 추적도 없으며 기기 밖으로 데이터가 나가지 않습니다.</string>
+
+  <!-- Notifications -->
+  <string key="notification.focusDone.title">집중 세션 완료</string>
+  <string key="notification.focusDone.body">휴식할 시간입니다.</string>
+  <string key="notification.breakDone.title">휴식이 끝났습니다</string>
+  <string key="notification.breakDone.body">다시 집중합시다.</string>
+  <string key="notification.blocked.title">앱 차단됨</string>
+  <string key="notification.blocked.body">FocusWall이 %1을(를) 차단했습니다.</string>
+
+  <!-- About -->
+  <string key="about.title">FocusWall 정보</string>
+  <string key="about.tagline">무료 네이티브 macOS 집중 차단기</string>
+  <string key="about.version">버전</string>
+  <string key="about.version.label">설치된 버전</string>
+  <string key="about.github">GitHub 프로젝트</string>
+  <string key="about.githubProject">GitHub에서 보기</string>
+  <string key="about.support">프로젝트 후원</string>
+  <string key="about.sponsor">GitHub에서 후원</string>
+  <string key="about.sponsor.subtitle">GitHub Sponsors를 통한 정기 후원</string>
+  <string key="about.coffee">Buy Me a Coffee</string>
+  <string key="about.coffee.subtitle">buymeacoffee.com을 통한 일회성 후원</string>
+  <string key="about.language">언어</string>
+  <string key="about.language.system">시스템 기본값</string>
+  <string key="about.restartRequired">재시작 필요</string>
+  <string key="about.restartNow">지금 재시작</string>
+  <string key="about.restartReason">언어 변경은 FocusWall 재시작 후 적용됩니다.</string>
+
+  <!-- Updates -->
+  <string key="update.title">업데이트</string>
+  <string key="update.check">지금 확인</string>
+  <string key="update.checking">업데이트 확인 중…</string>
+  <string key="update.upToDate">최신 버전입니다</string>
+  <string key="update.recheck">다시 확인</string>
+  <string key="update.available">업데이트 가능</string>
+  <string key="update.version">버전 %1 사용 가능</string>
+  <string key="update.download">다운로드</string>
+  <string key="update.downloading">업데이트 다운로드 중…</string>
+  <string key="update.ready">업데이트 다운로드 완료</string>
+  <string key="update.install">지금 설치</string>
+  <string key="update.error">확인 실패</string>
+  <string key="update.retry">다시 시도</string>
+</strings>

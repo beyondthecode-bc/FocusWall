@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<strings>
+  <!-- App -->
+  <string key="app.name">FocusWall</string>
+  <string key="app.quit">終了</string>
+
+  <!-- General -->
+  <string key="general.ok">OK</string>
+  <string key="general.cancel">キャンセル</string>
+
+  <!-- Menu -->
+  <string key="menu.settings">設定</string>
+  <string key="menu.about">について</string>
+
+  <!-- Modes -->
+  <string key="mode.single">シングル</string>
+  <string key="mode.pomodoro">ポモドーロ</string>
+
+  <!-- Phases -->
+  <string key="phase.idle">準備完了</string>
+  <string key="phase.focus">集中</string>
+  <string key="phase.shortBreak">短い休憩</string>
+  <string key="phase.longBreak">長い休憩</string>
+
+  <!-- Timer -->
+  <string key="timer.start">開始</string>
+  <string key="timer.stop">停止</string>
+  <string key="duration.single.summary">%1 分</string>
+
+  <!-- Popover -->
+  <string key="popover.blocked">%1 をブロック</string>
+  <string key="history.today">今日: %1</string>
+  <string key="history.label">セッション</string>
+  <string key="history.total">合計: %1 セッション</string>
+  <string key="history.minutes">%1 分集中</string>
+  <string key="history.totalShort">%1 · %2 分</string>
+  <string key="blocklist.label">アプリ</string>
+  <string key="blocklist.none">なし</string>
+  <string key="websites.label">サイト</string>
+  <string key="websites.count">%1</string>
+
+  <!-- Blocklist -->
+  <string key="blocklist.empty">ブロックされたアプリはまだありません</string>
+  <string key="blocklist.empty.detail">集中セッション中にブロックしたいアプリを追加してください。</string>
+  <string key="blocklist.count">%1 個のアプリをブロック中</string>
+  <string key="blocklist.manage">管理</string>
+  <string key="blocklist.add">追加</string>
+  <string key="blocklist.remove">削除</string>
+
+  <!-- App picker -->
+  <string key="apppicker.title">ブロックするアプリを選択</string>
+  <string key="apppicker.selected">%1 件選択</string>
+  <string key="apppicker.search">アプリを検索</string>
+  <string key="apppicker.add">追加</string>
+  <string key="apppicker.cancel">キャンセル</string>
+
+  <!-- Settings -->
+  <string key="settings.title">設定</string>
+  <string key="settings.general">一般</string>
+  <string key="settings.launchAtLogin">ログイン時に開始</string>
+  <string key="settings.notifications">通知を表示</string>
+  <string key="settings.durations">時間</string>
+  <string key="settings.singleDuration">シングルセッション</string>
+  <string key="settings.pomodoroFocus">ポモドーロ集中</string>
+  <string key="settings.pomodoroShort">短い休憩</string>
+  <string key="settings.pomodoroLong">長い休憩</string>
+  <string key="settings.pomodoroCycles">長い休憩までのサイクル数</string>
+  <string key="settings.minutes">%1 分</string>
+  <string key="settings.blocklist">ブロックリスト</string>
+  <string key="settings.websites">ウェブサイト</string>
+
+  <!-- Helper -->
+  <string key="helper.installed">ヘルパーがインストール済み</string>
+  <string key="helper.uninstall">アンインストール</string>
+  <string key="helper.install">ヘルパーをインストール</string>
+  <string key="helper.reinstall">再インストール</string>
+  <string key="helper.reinstall.tooltip">同梱のヘルパーを再展開します。FocusWall を更新した後、新しいヘルパーを反映するために使用してください。</string>
+  <string key="helper.required.title">ウェブサイトのブロックにはヘルパーが必要です</string>
+  <string key="helper.required.body">FocusWall は /etc/hosts を編集するために権限のあるヘルパーを必要とします。今一度だけ管理者認証を行えば、その後は求められません — アンインストールするまでバックグラウンドで動作します。</string>
+
+  <!-- Websites -->
+  <string key="websites.enabled">集中セッション中にウェブサイトをブロック</string>
+  <string key="websites.presets">プリセット</string>
+  <string key="websites.addPlaceholder">example.com</string>
+  <string key="websites.add">追加</string>
+  <string key="websites.empty">まだウェブサイトは追加されていません</string>
+  <string key="websites.current">%1 個のウェブサイトをブロック中</string>
+  <string key="websites.dohNote">セッション中は DNS-over-HTTPS のリゾルバー (Cloudflare、Google、Quad9、NextDNS など) も遮断されるため、ブラウザの「セキュア DNS」は静かにシステムリゾルバーにフォールバックします。</string>
+
+  <!-- Presets -->
+  <string key="preset.socialMedia">ソーシャルメディア</string>
+  <string key="preset.news">ニュース</string>
+  <string key="preset.entertainment">エンターテインメント</string>
+
+  <!-- Blocked popup -->
+  <string key="blocked.title">ブロック</string>
+  <string key="blocked.unlockAt">%1 に解除</string>
+
+  <!-- How it works -->
+  <string key="about.howItWorks">仕組み</string>
+  <string key="howitworks.title">FocusWall の仕組み</string>
+  <string key="howitworks.kicker">内部の仕組み</string>
+  <string key="howitworks.subtitle">簡単なツアー。</string>
+  <string key="howitworks.apps.title">アプリ</string>
+  <string key="howitworks.apps.body">気が散るアプリを選んでください。セッション中はそれらを開こうとしても自動的に閉じられます。</string>
+  <string key="howitworks.websites.title">ウェブサイト</string>
+  <string key="howitworks.websites.body">ドメインを選ぶかプリセットを使用してください。セッション中はブラウザからそれらへアクセスできません。</string>
+  <string key="howitworks.pomodoro.title">ポモドーロ</string>
+  <string key="howitworks.pomodoro.body">単一の集中ブロックを実行するか、集中と休憩を交互に行います。集中中はブロックが有効になり、休憩中は無効になります。</string>
+  <string key="howitworks.privacy.title">プライバシー</string>
+  <string key="howitworks.privacy.body">すべてがあなたの Mac 上で行われます。アカウントも追跡もなく、デバイスからデータが外に出ることはありません。</string>
+
+  <!-- Notifications -->
+  <string key="notification.focusDone.title">集中セッション完了</string>
+  <string key="notification.focusDone.body">休憩の時間です。</string>
+  <string key="notification.breakDone.title">休憩が終わりました</string>
+  <string key="notification.breakDone.body">集中に戻りましょう。</string>
+  <string key="notification.blocked.title">アプリをブロック</string>
+  <string key="notification.blocked.body">FocusWall が %1 をブロックしました。</string>
+
+  <!-- About -->
+  <string key="about.title">FocusWall について</string>
+  <string key="about.tagline">macOS 向けの無料ネイティブ集中ブロッカー</string>
+  <string key="about.version">バージョン</string>
+  <string key="about.version.label">インストール済みのバージョン</string>
+  <string key="about.github">GitHub プロジェクト</string>
+  <string key="about.githubProject">GitHub で見る</string>
+  <string key="about.support">プロジェクトを支援</string>
+  <string key="about.sponsor">GitHub でスポンサーになる</string>
+  <string key="about.sponsor.subtitle">GitHub Sponsors による継続的な支援</string>
+  <string key="about.coffee">Buy Me a Coffee</string>
+  <string key="about.coffee.subtitle">buymeacoffee.com で一度の寄付</string>
+  <string key="about.language">言語</string>
+  <string key="about.language.system">システムのデフォルト</string>
+  <string key="about.restartRequired">再起動が必要です</string>
+  <string key="about.restartNow">今すぐ再起動</string>
+  <string key="about.restartReason">言語の変更は FocusWall の再起動後に反映されます。</string>
+
+  <!-- Updates -->
+  <string key="update.title">アップデート</string>
+  <string key="update.check">今すぐ確認</string>
+  <string key="update.checking">アップデートを確認中…</string>
+  <string key="update.upToDate">最新です</string>
+  <string key="update.recheck">再確認</string>
+  <string key="update.available">アップデートあり</string>
+  <string key="update.version">バージョン %1 が利用可能</string>
+  <string key="update.download">ダウンロード</string>
+  <string key="update.downloading">アップデートをダウンロード中…</string>
+  <string key="update.ready">アップデートをダウンロード済み</string>
+  <string key="update.install">今すぐインストール</string>
+  <string key="update.error">確認に失敗</string>
+  <string key="update.retry">再試行</string>
+</strings>
