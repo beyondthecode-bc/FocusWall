@@ -33,6 +33,19 @@
 
 ---
 
+## What's new in v1.0.1
+
+A visual rebrand. Same app, new look:
+
+- New emerald-green shield app icon at all 10 macOS sizes
+- Redesigned About banner
+- Accent color refreshed from terracotta to emerald to match the new icon; break-phase tint shifted to cool slate so Focus vs Break still reads at a glance
+- No feature changes from v1.0.0
+
+See the full release notes (including SHA-256 and VirusTotal scan): [v1.0.1](https://github.com/beyondthecode-bc/FocusWall/releases/tag/v1.0.1).
+
+---
+
 ## Screenshots
 
 <p align="center">
@@ -105,7 +118,7 @@ FocusWall ships in phases:
 - **Phase 1 (current)**: app blocking, Pomodoro timer, session history, settings, about, 8-language localization
 - **Phase 2**: website blocking (privileged helper + `/etc/hosts` editing)
 - **Phase 3**: recurring schedules, strict mode (can't cancel once started), macOS Focus mode integration
-- **Phase 4**: session statistics charts, onboarding, keyboard shortcuts, polished app icon
+- **Phase 4**: session statistics charts, onboarding, keyboard shortcuts
 
 ## Translations
 
