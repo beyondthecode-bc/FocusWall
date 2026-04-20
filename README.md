@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="images/banner.png" alt="FocusWall" width="100%">
+  <img src="images/banner.png?v=1.0.1" alt="FocusWall" width="100%">
 </p>
 
 <p align="center">
