@@ -33,6 +33,10 @@
 
 ---
 
+> [!NOTE]
+> **This repository is the FocusWall community hub** — translations, issue tracking, and releases. FocusWall is a free, closed-source macOS app; the source code is not published here. **[Download FocusWall from Releases](https://github.com/beyondthecode-bc/FocusWall/releases/latest).**
+
+
 ## What's new in v1.0.1
 
 A visual rebrand. Same app, new look:
